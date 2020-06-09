@@ -37,7 +37,7 @@ build () {
 
     pushd "$DIR"
         echo "ISO generation in progress.."
-        grub-mkrescue -o Qlipha.iso build/
+        grub-mkrescue -o AriOS.iso build/
         rm -rf build/
     popd
 }
